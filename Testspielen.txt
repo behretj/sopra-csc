@@ -1,0 +1,128 @@
+Erfahrungen nach Testspielen:
+================================
+
+Sprint 10:
+
+Bugs:
+------
+- Healthbar/Oxygenbar updatet sich nicht bei jeweiliger Trankeinnahme (generell hat man das Gefühl, dass die öfters nicht das Richtige Anzeigen)
+- gleichzeitige Spielerauswahl funktioniert nicht konsistent => Bsp: erst läuft man mit 5 Helden und dann beim nächsten Klick sind nur noch 3 Helden ausgewählt
+- Monster haben einem kein Leben mehr abgezogen (nach bestimmten Tätigkeiten?)
+- Sauerstofftrank war nicht einsetzbar (sollte gelöst sein)
+- keine Bewegung von Helden bei Kämpfen (oder Nice to have??) => es gibt scheinbar Bewegungen aber die sieht man kaum, weil der Kampf zurzeit extrem laggy/buggy ist (es werden dabei exceptions geworfen?!)
+- Held ändert seine verschiedenen Laufanimationen viel zu schnell => "flackernde Bewegung" (bereits behoben)
+- Schild-Spezialeffekt hat irgendwann nicht mehr richtig geklappt
+- Alle Animationen von den Heldenfähigkeiten funktionieren nicht immer richtig
+- Mehrfachauswahl funktioniert nur wenn man in positive Richtung der Achsen das Rechteck aufspannt
+- Sounds werden auch abgespielt, wenn man nicht mit der Kamera an der Stelle ist (oder Nice to have?)
+- Gestorbene Helden werden nicht von HUD entfernt (wenn man sie auswählt geht die Kamera zum Todesort)
+- Tech Demo => Freeze Screen
+- AI macht erst was wenn man zu ihr hinläuft
+- MouseInput/IsoHelper leicht buggy bei der Umrechnung (oder Nice to have?)
+
+
+Todo:
+--------------
+- Beschreibung am Anfang, was die verschiedenen Spezialfähigkeiten der Helden sind
+- Minimap lesbarer/schöner machen. Die Labyrinth-Struktur ist auf dem Hintergrund kaum erkennbar
+- Soundeffekt + Animation für das Verwandlungsmonster
+- Soundeffekt fürs normale Angreifen der Helden ändern
+- Spawnen von neuen Monstern
+
+Erledigt:
+---------
+- Lebensanzeige der Monster werden nur angezeigt, wenn sie nicht voll ist
+- sniper-schüsse bleiben selbst an Gräsern hängen (passt so oder wie soll das gelöst werden?)
+- HUD unten wäre ein anderer Hintergrund ganz schick
+
+Nice To Have:
+--------------
+- Direktauswahl funktioniert, klappt aber nur wenn man direkt auf die Füße klickt
+- HUD Teil links oben ist ziemlich klein
+- Monster und NPCs werden nicht auf der Minimap angezeigt
+- Einfaches Icon für unser Spiel
+- Man sieht von den Gegnerischen Helden nur die Lebensanzeige (nicht die Sauerstoffanzeige) (bei mir sieht man beides)
+- Wenn man auf der Minimap alles in Realtime sehen würde wo eigene Helden Sicht hätten
+- Wenn nicht nur Büsche auf Minimap erhalten bleiben (auch NPCs, O^2-Quellen,...)
+- Andere Objekte (Lake, etc.) auf Karte hinzufügen
+
+
+Balancing:
+-----------
+- viel zu viele Kräuter auf der Map
+- alle Spezialfähigkeiten der Helden anpassen
+- Sauerstoffquelle/Lebensbrunnen laden zu langsam auf
+- Bisher sind die Monster zu schwach (ein Held hat zum gewinnen gereicht)
+
+
+Anderes:
+--------
+- F1 rausnehmen
+- alle Spezialfähigkeiten außer snipen vom Mausrad nehmen
+
+
+
+Sprint 09:
+
+Bugs:
+------
+- Healthbar updatet sich beim Heilbrunnen nicht
+- Wenn man volle Leben hat, darf man keine dazu bekommmen von NPC
+- Speichern/Laden geht nicht
+- Wenn Spieler durch Monster getötet wird, zählt es nicht zur Statistik
+- Raumschiff Range zum Gewinnen ist nicht sehr präzise
+- Verbündete Helden sind auf Minimap Rot statt Blau und umgekehrt
+- Wenn alle Verbündeten Tot -> Spiel beenden
+- Sehr schnelles klicken lässt Spieler auf einer stelle hin und her laufen -> lösen durch auskommentieren von movableEntity.mNextpositons.Clear()?
+- Büsche an Kartenrändern verhalten sich komisch/korrektes Malen funktioniert nicht
+
+
+Performance:
+-------------
+- A* sehr langsam bei größeren Distanzen
+- In der Mitte der Map (bei den Gegnern) wird das Spiel sehr langsam
+- Laufen/Kämpfen mit mehreren Helden oft sehr langsam
+- Pathfinder limitieren auf Rechenzeit
+
+
+TODO:
+-----
+- Automatisches Angreifen (nicht mehr Spamklicken)
+- Trankzutaten im HUD darstellen
+- Figur mit ins HUD
+- Wenn ausgewählter Held stirbt, Held von HUD nehmen und automatisch zu einem anderen Helden wechseln
+- Interaktionen mit Objekten auf der Karte per Mouseklick statt mit SPACE
+- Minimap Halbentdeckbar (entdeckte NonMovable Objekte bleiben auf Minimap sichtbar)
+- Erklärscreen vor Spielbeginn mit Missionsbeschreibung
+- Mehr Deko auf Karte bringen (Grasbüschel)
+
+
+Nice To Have:
+--------------
+- Map verschönern (Untergrund, Hindernisse)
+- Shot Cuts zum Wechseln zu anderen Helden
+- HUD Heldtextur größer und vllt noch den Namen dazu um besseren Überblick zu haben.
+- Skills von Mausrad auf Taste legen
+- Mehr Monster spawnen (auch am Rand der Map)
+- Wechsel zwischen Helden muss deutlich verbessert werden -> Elemente im HUD vergrößern, Einzelauswahl der Helden durch Klicken
+  (nicht nur der Mechanismus mit dem Auswahlviereck), auf Tastatur legen
+
+
+Probleme mit GDD - Offene Fragen:
+- Grundlegendes Problem: Wie macht Spiel mehr Spaß? -> Idee: Map mehr als Labyrinth aufbauen, um zu verhindern dass Helden gleich Richtung Raumschiff losziehen können 
+- [A03] Zutaten für Tränke sind noch nicht im Inventar sichtbar + wie viele und welche Tränke gibt es jetzt eigentlich? Sollte im GDD präzisiert werden! 
+- Bei der Menüstruktur fehlt noch nach NEUES SPIEL diese Seite, auf der die Mission beschrieben wird. Zufügen oder weglassen? Wenn zufügen, dann auch im Baumdiagramm!
+- Wenn mehrere Helden ausgewählt sind, was wird dann unten im HUD angezeigt? Gibt es Aktionen, die nur passieren können, wenn nur ein Held ausgewählt ist? Z.B. Kräuter aufsammeln, was wenn da mehrere ausgewählt sind?
+- [A04] Angriffsbefehl mit Rechtsklick bisher nur gegen Gegnerteam aber geht auch gegen Monster oder?
+- [A05] Spezialfähigkeit auf Rechtsklick oder Q? Welche Spezialfähigkeiten werden noch sichtbar -> muss noch in Tabelle06
+- [A06] Quellen benutzen auf Leertaste? Wie sieht man optische ob die Quelle aktiv oder inaktiv ist? Warum bekommen dann ALLE Figuren Sauerstoff - haben wir das schon so implementiert?
+- [A07] gleiches Problem wie [A06]
+- [A08] wird gefragt, welchen Trank man brauen mag?
+- [A10] Interaktion mit NPC: nur Spieler oder auch KI?
+- Zu den Spezialfähigkeiten: Beim Healer steht noch Fernkampf? Carry: Schild für alle oder nur ausgewählte Helden?
+- Verwandlungsmonster: noch nicht vorhanden??? Wenn vorhanden, wie soll das gehen?
+- Haben wir Dekoobjekte ohne Kollision, welche nicht Trankzutaten sind?
+- Spiel gewinnen/verlieren als Aktion (Raumschiff erreichen) hinzugefügt! -> nochmal kurz besprechen ob da alle Fälle abgedeckt sind
+- Achievements: hoch geheilt: kann ein Trank mehrmals eingesetzt werden? Kommt nach der Beschreibung so rüber..
+- Kritikpunkt bei mehr als 20 Spiele gespielt: wie werden unsere Maps nach jedem neuen Spiel erstellt? Interessant genug für 20 Spiele? -> muss noch ins GDD!
+- Optionenmenü: Was ist der Unterschied der verschiedenen Volume Anzeigen? Und kann man wirklich die Screen-Auflösung verändern?

@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="SopraProjekt.Game1" Collapsed="true">
+    <Position X="64" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAACwAAAAAAAAAAAAAAAACAAQAAAAAAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Globals" Collapsed="true">
+    <Position X="67.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAIBYGEJBUbAiAIGlBiOEYCBIwGNkgOhkMjKgCoACsg=</HashCode>
+      <FileName>Globals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Program" Collapsed="true">
+    <Position X="64" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Settings1" Collapsed="true">
+    <Position X="65.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEIAAAAAABAAAAAAAAACAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Test" Collapsed="true">
+    <Position X="67.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwIAgAAAAQBgQAEAAAAAAAAAAAAQAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Collectable">
+    <Position X="29.75" Y="13.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Entities\Collectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Colliding">
+    <Position X="42" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Colliding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.FixedEntity">
+    <Position X="44.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\FixedEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Entity">
+    <Position X="30.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEQiAAAgAjAAAghAAAgAAAAAwAkIQAAAACAxADAAAgA=</HashCode>
+      <FileName>Entities\Entity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SopraProjekt.Entities.MovableEntity">
+    <Position X="12" Y="9" Width="3" />
+    <NestedTypes>
+      <Enum Name="SopraProjekt.Entities.MovableEntity.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Entities\MovableEntity.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQQEIAAAABwoAWgAAAiAAAiAAIIAAAgAIAAAAEAAAAE=</HashCode>
+      <FileName>Entities\MovableEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Hero">
+    <Position X="6.25" Y="16.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAgAAAgAAAIAAABgAAAAAAAAAAAAAABAAgAAEIA=</HashCode>
+      <FileName>Entities\Hero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Monster">
+    <Position X="20.5" Y="16.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Monster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Npc">
+    <Position X="14.5" Y="16.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Entities\NPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.NonColliding">
+    <Position X="59.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\NonColliding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.ScreenManagement.GameScreenManager" Collapsed="true">
+    <Position X="65.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggQAACCAAAAAAkgAAAEDgAAgAAAAgACAIAAABAAAAAQ=</HashCode>
+      <FileName>ScreenManagement\GameScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.ScreenManagement.Screens.GamePlayScreen">
+    <Position X="18.75" Y="28.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAACABAwAAAAAAAAAAEAgECAgAAAAABAEAAAE=</HashCode>
+      <FileName>ScreenManagement\Screens\GameplayScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.ScreenManagement.Screens.GameScreen">
+    <Position X="20.25" Y="22.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QAQiAgCAACAAAwAAAAAAAAIAAAgAAAAAAQAgBIgAAAA=</HashCode>
+      <FileName>ScreenManagement\Screens\GameScreen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SopraProjekt.ScreenManagement.Screens.IntroScreen">
+    <Position X="15.25" Y="28.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAAAAAQAIAIAAgREAAABYAAAAAAAIhAACAAQ=</HashCode>
+      <FileName>ScreenManagement\Screens\IntroScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.ScreenManagement.Screens.NewGameScreen">
+    <Position X="22.5" Y="28.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQQBAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAABAQACgA=</HashCode>
+      <FileName>ScreenManagement\Screens\NewGameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.ScreenManagement.Screens.OptionsScreen">
+    <Position X="25.75" Y="28.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAABAAAAQAAAAAAAAABAAAAAAAAAAAEBAwAAAA=</HashCode>
+      <FileName>ScreenManagement\Screens\OptionsScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Heroes.Carry">
+    <Position X="0.75" Y="21.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Entities\Heroes\Carry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Heroes.Crusher">
+    <Position X="3.5" Y="21.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAEAgAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Entities\Heroes\Crusher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Heroes.Healer">
+    <Position X="6.25" Y="21.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAABAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Entities\Heroes\Healer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Heroes.Sniper">
+    <Position X="9" Y="21.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAEAgAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Entities\Heroes\Sniper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Heroes.Tank">
+    <Position X="11.75" Y="21.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAAAAAAQAAAAAAAAAAgAAAAAAAAAAgAAAAAAE=</HashCode>
+      <FileName>Entities\Heroes\Tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Monsters.Fernkampfmonster">
+    <Position X="17" Y="19.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Monsters\Fernkampfmonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Monsters.Kamikazemonster">
+    <Position X="19.5" Y="19.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Monsters\Kamikazemonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Monsters.Nahkampfmonster">
+    <Position X="22" Y="19.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Monsters\Nahkampfmonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Monsters.Verwandlungsmonster">
+    <Position X="24.5" Y="19.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Monsters\Verwandlungsmonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Functional.OxygenSource">
+    <Position X="35.5" Y="13.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgQAAwAIAAAAAAAAAAAAAAQAgCCAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Functional\OxygenSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Functional.Spaceship">
+    <Position X="61.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Functional\Spaceship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Functional.Herbs">
+    <Position X="27.25" Y="16.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Functional\Herbs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Functional.Herbs2">
+    <Position X="30" Y="16.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Functional\Herbs2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Functional.Herbs3">
+    <Position X="32.75" Y="16.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Functional\Herbs3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Decorative.Bush">
+    <Position X="47.5" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Decorative\Bush.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Decorative.Lake">
+    <Position X="44.75" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Decorative\Lake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Decorative.RockOne">
+    <Position X="42" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Decorative\Rock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Decorative.RockTwo">
+    <Position X="39.25" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Decorative\Rock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Decorative.SpaceWaste">
+    <Position X="50.25" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Decorative\SpaceWaste.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Decorative.Tree">
+    <Position X="53" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Decorative\Tree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SopraProjekt.Entities.Functional.HealthFountain">
+    <Position X="55.75" Y="13.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAIAAAAAAAAAABgQAAAgAAAAAAgEAAQAAAAAAA=</HashCode>
+      <FileName>Entities\Functional\HealthFountain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

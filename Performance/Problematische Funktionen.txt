@@ -1,0 +1,19 @@
+Zusammenfassung:
+
+Problematische Funktionen
+
+Pathfinding -> Map.GetEntitiesIn() -> Quadtree.GetElements
+Quadtree.getElements(List)
+
+AI
+-AI-handler.check
+-Run-search-routine (ebenfalls pathfinding)
+
+-Test skills
+-RemoveDeadEntities / getElements iteration über ganze karte enthalten
+
+-----------------------------------------------------
+Verbesserung:
+
+RemoveDeadEntities anders lösen wenn möglich
+Pathfinding auf kollidierbare objekte beschränken
